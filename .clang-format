@@ -1,0 +1,16 @@
+---
+BasedOnStyle: Microsoft
+IndentWidth: 2
+IncludeBlocks: Regroup
+IncludeIsMainRegex: "^$"
+IncludeCategories:
+  - Regex: "<allegro5/.+>"
+    Priority: 2
+    SortPriority: 1
+  - Regex: "<.+>"
+    Priority: 2
+  - Regex: '"[^/]+"'
+    Priority: 3
+  - Regex: ".*"
+    Priority: 3
+    SortPriority: 4
